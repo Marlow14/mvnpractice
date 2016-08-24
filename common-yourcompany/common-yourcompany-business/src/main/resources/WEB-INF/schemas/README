@@ -1,0 +1,4 @@
+You can put your company schema generalities here.
+As your common schemas are put here with *.xsd extensions, they are imported in other business project.
+
+After reading this message, you should delete this file of your generated project.

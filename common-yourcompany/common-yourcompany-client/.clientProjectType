@@ -1,0 +1,2 @@
+This file with that name allows to build with a specific maven profile.
+It has to be here in all client projects.

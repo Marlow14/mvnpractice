@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>main.yourcompany</artifactId>
+		<groupId>com.yourcompany.common</groupId>
+		<version>1.0.0</version>
+	</parent>
+
+	<groupId>com.yourcompany.common</groupId>
+	<artifactId>common-yourcompany-root</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<description>YourCompany common modules. All YourCompany modules have to link as dependency, the associated module.</description>
+
+	<url>http://www.yourcompany.com</url>
+	<issueManagement>
+	</issueManagement>
+	<inceptionYear>2011</inceptionYear>
+
+	<mailingLists>
+	</mailingLists>
+	<developers>
+	</developers>
+	<contributors>
+	</contributors>
+	<licenses>
+	</licenses>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<url/>
+	</scm>
+	<organization>
+		<name>YourCompany</name>
+		<url>http://www.yourcompany.com</url>
+	</organization>
+
+
+	<properties>
+		<net.sf.itcb-version>0.0.1</net.sf.itcb-version>
+	</properties>
+
+  <modules>
+    <module>common-yourcompany-business</module>
+    <module>common-yourcompany-business-impl</module>
+    <module>common-yourcompany-server</module>
+    <module>common-yourcompany-client</module>
+    <module>common-yourcompany-portlet</module>
+  </modules>
+</project>

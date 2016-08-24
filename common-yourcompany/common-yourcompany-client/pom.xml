@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>common-yourcompany-root</artifactId>
+		<groupId>com.yourcompany.common</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<groupId>com.yourcompany.common</groupId>
+	<artifactId>common-yourcompany-client</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<description>This module is the common YourCompany module that must depend all the YourCompany client modules.</description>
+	<!-- See the common-yourcompany-root module for further information : developers, scm... -->
+
+
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.itcb.common</groupId>
+			<artifactId>common-client</artifactId>
+			<version>${net.sf.itcb-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.yourcompany.common</groupId>
+			<artifactId>common-yourcompany-business</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>
